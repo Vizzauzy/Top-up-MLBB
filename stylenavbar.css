@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.Navbar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar .Navbar-logo h1{
+    font-size: 35px;
+    color: rgb(235, 243, 6);
+    font-family: cursive;
+}
+.Navbar .Navbar-logo .tec  {
+    color: rgb(24, 0, 158);
+}
+.Navbar ul{
+    list-style: none;
+    gap: 25px;
+    display: flex;
+}
+.Navbar ul li {
+    position: relative;
+}
+.Navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s ease;
+}
+.Navbar ul li a::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 5px;
+    background-color: aqua;
+    transition: 0.3s ease;
+}
+.Navbar ul li a:hover {
+    color: darkgoldenrod;
+}
+
+/* css home */
+.Home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('benedetta.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Home .isi{
+    padding: 1.4rem 7%;
+    max-width: 50rem;
+}
+.isi a {
+    text-decoration: none;
+}
+.isi .h1{
+    margin-top: 1rem;
+    font-size: 45px;
+    color: white;
+}
+.isi p{
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+}
+.isi .cta{
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: darkgreen;
+    border-radius: 0.2rem;
+}

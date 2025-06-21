@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url('benedetta.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 480px;
+  margin: 2rem auto;
+  background:transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #E03E2D;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin: .75rem 0 .25rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: .5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .5rem;
+  margin-top: .5rem;
+}
+
+.grid button {
+  padding: .7rem;
+  border: none;
+  background: #E03E2D;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background .3s;
+  opacity: 0.6;
+}
+
+.grid button:hover {
+  background: #C92E1A;
+}
+
+.promo-row {
+  display: flex;
+  align-items: center;
+  margin: .5rem 0;
+}
+
+.promo-row input {
+  flex: 1;
+  margin-right: .5rem;
+}
+
+.promo-row button {
+  padding: .5rem .75rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.promo-row button:hover {
+  background-color: #0056b3;
+}
+
+.submit-btn {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.submit-btn button {
+  width: 100%;
+  padding: .75rem;
+  font-size: 1rem;
+  background: #28A745;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.submit-btn button:hover {
+  background: #1e7e34;
+}
